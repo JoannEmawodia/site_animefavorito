@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width:1280px;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: "Bungee", serif;
+    font-weight: lighter;
+    color:rgb(50, 124, 99);
+}
+
+p,
+a,
+button{
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+header form{
+    background-color: rgb(50, 124, 99);
+    padding: 8px;
+    display: flex;
+    margin: 0 auto;
+}
+
+header input,
+header button{
+    margin-left: 8px;
+    position:relative;
+    left:49%; 
+}
+
+h4{
+    color:rgb(235, 235, 189);
+    position:relative;
+    left:49%; 
+}
+
+header nav li{
+    display: inline;
+}
+
+header nav li a{
+    text-decoration: none;
+    padding:8px;
+    font-size:14px;
+}
+
+header li a:hover{
+    text-decoration:underline;
+}
+
+section,
+header {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;    
+    padding:30px;
+}
+
+body{
+    background-color:rgb(235, 235, 189);
+}
+
+body img{
+    height:120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float:left;
+    text-align: justify;
+}
+
+.articles article {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 30%;
+}
+
+#about img{
+    height: 500px;
+    border: 10px solid rgb(191, 243, 143);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#arc h3{
+    text-align: center;
+}
+
+.img1 img,
+.img2 img,
+.img3 img,
+.img4 img{
+    float: left;
+    height: 150px;
+    margin-right: 5%;
+}
+
+.img1,
+.img2,
+.img3,
+.img4{
+    padding: 15px 0;
+}
+
+.articles #contact{
+    display:flex;
+    /*justify-content: space-between;*/
+}
+
+.articles #contact form input,
+.articles #contact textarea,
+.articles #contact button {
+    display: block;
+    width: 280px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.articles #contact textarea{
+    resize:none;
+    height: 100px;
+}
+
+.articles #contact form button{
+    background-color:rgb(50, 124, 99);
+    color: rgb(235, 235, 189);
+    border: none;  
+    cursor: pointer;
+}
+
+.articles #contact form button:hover{
+    background-color: rgb(92, 145, 127);
+}
+
+.articles #contact input:focus, textarea:focus{
+    outline-color: rgb(50, 124, 99);
+}
